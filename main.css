@@ -20,7 +20,6 @@
     font-weight: normal;
     font-size: 28px;
     line-height: 1;
-    color: #C8B552;
     list-style: none;
     width: 1140px;
     display: flex;
@@ -29,14 +28,17 @@
     margin-left: 10px;
 }
 
-.header_list-item:first-of-type {
+.header_list-item {
+    color: #C8B552;
+}
+
+.header_list-item_title {
     text-transform: uppercase;
     color: #FBD611;   
 }
 
 .header_nav {
     height: 70px;
-    background: blue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,5 +47,18 @@
 .header_img-piano {
     height: 50px;
     width: 50px;
+}
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    opacity: .6;
+}
+
+a .header_list-item:hover {
+    color: #0A0909;
+    background: #FFFFFF;
 }

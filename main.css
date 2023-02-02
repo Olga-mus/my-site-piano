@@ -62,7 +62,7 @@ a {
 
 a .header_list-item:hover {
   cursor: pointer;
-  color: #fff;
+  opacity: 0.6;
   text-decoration: underline;
 }
 
@@ -78,13 +78,55 @@ a .header_list-item:hover {
   text-align: center;
   padding: 0;
   margin: 0 auto;
-  background: violet;
-  position: absolute;
-  z-index: 1;
+  position: relative;
 }
 
 .header-main__photo {
   width: 1180px;
   height: 690px;
-  text-align: center;
+  opacity: 0.6;
+}
+
+.header-main__title {
+  font-family: 'Pacifico', Arial, sans-serif;
+  font-size: 64px;
+  line-height: 1.25;
+  letter-spacing: 0.04em;
+  color: #8a1a15;
+  width: 544px;
+  margin: 0;
+  position: absolute;
+  top: 42px;
+  left: 100px;
+}
+
+.header-main__subtitle {
+  font-size: 40px;
+  line-height: 1.25;
+  color: #c8b552;
+  position: absolute;
+  top: 280px;
+  left: 100px;
+  width: 478px;
+  margin: 0;
+  text-align: left;
+}
+
+.header-main__text-button {
+  width: 288px;
+  height: 70px;
+  border-radius: 40px;
+  font-size: 22px;
+  line-height: 1;
+  font-weight: bold;
+  color: #510d0a;
+  background-color: #fcea2b;
+  position: absolute;
+  top: 520px;
+  left: 100px;
+}
+
+.header-main__clue {
+  background: url(./images/icon/email.svg);
+  width: 200px;
 }

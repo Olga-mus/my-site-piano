@@ -127,6 +127,10 @@ a .header_list-item:hover {
 }
 
 .header-main__clue {
-  background: url(./images/icon/email.svg);
-  width: 200px;
+  width: 30px;
+  height: 82px;
+  background-image: url(./images/icon/clue.svg);
+  position: absolute;
+  top: 40px;
+  right: 100px;
 }

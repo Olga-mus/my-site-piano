@@ -262,3 +262,76 @@ a .header_list-item:hover {
   justify-content: space-between;
   padding-bottom: 50px;
 }
+
+.main-dreams__text {
+  font-family: 'Pacifico', Arial, sans-serif;
+  font-size: 30px;
+  line-height: 1;
+  color: #8a1a15;
+  margin: 20px 0 30px;
+}
+
+.main-dreams__video {
+  border-radius: 40px;
+}
+
+.footer-contacts__title {
+  font-size: 30px;
+  line-height: 1;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0;
+  text-align: center;
+}
+
+.footer-contacts__list {
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 400;
+  color: #fff;
+  list-style: none;
+  width: 1180px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 30px 0 0;
+}
+
+.footer-contacts__icon_tg {
+  background-image: url(./images/icon/telegram.svg);
+  width: 20px;
+  height: 20px;
+}
+
+.footer-contacts__icon_email {
+  background-image: url(./images/icon/email.svg);
+  width: 20px;
+  height: 16px;
+}
+
+.footer-contacts__icon_vk {
+  background-image: url(./images/icon/vk.svg);
+  width: 20px;
+  height: 20px;
+}
+
+.footer-contacts__icon_phone {
+  background-image: url(./images/icon/header-main-mobile.svg);
+  background-size: contain;
+  object-fit: contain;
+  width: 20px;
+  height: 20px;
+}
+
+.footer-contacts__list li p {
+  margin: 0;
+}
+
+.footer-contacts__list-items {
+  display: flex;
+}
+
+.footer-contacts__list-items div {
+  margin-right: 10px;
+}

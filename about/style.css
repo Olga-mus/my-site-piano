@@ -1,0 +1,103 @@
+@import '../vendor/fonts/fonts.css';
+
+* {
+  outline: 1px solid red;
+}
+
+.page {
+  font-family: 'Josefin Sans', Arial, sans-serif;
+  margin: 0;
+  background-color: #0a0909;
+  color: #ffffff;
+}
+
+.page_container {
+  min-width: 320px;
+  max-width: 1180px;
+  margin: 20px auto;
+}
+
+.header_list {
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 1;
+  list-style: none;
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin-left: 10px;
+}
+
+.header_list-item {
+  color: #c8b552;
+}
+
+.header_list-item_title {
+  text-transform: uppercase;
+  color: #fbd611;
+}
+
+.header_nav {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_img-piano {
+  height: 50px;
+  width: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a .header_list-item:hover {
+  cursor: pointer;
+  opacity: 0.6;
+  text-decoration: underline;
+}
+
+.header_img-piano:hover {
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(360deg)
+    brightness(118%) contrast(119%);
+  border: none;
+}
+
+.main-about__title {
+  font-family: 'Pacifico', Arial, sans-serif;
+  font-size: 54px;
+  line-height: 1;
+  color: #8a1a15;
+  margin: 0;
+  text-align: center;
+  padding: 60px 0 60px;
+}
+
+.main-about__info {
+  width: 378px;
+  height: 400px;
+  background-color: #d6d6e1;
+  border-radius: 40px;
+}
+
+.main-about__list-items {
+  font-size: 18px;
+  line-height: 1.22;
+  color: #000;
+  list-style: none;
+}
+
+.main-about__img {
+  width: 484px;
+  height: 400px;
+}
+
+.main-about__inform {
+  width: 984px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}

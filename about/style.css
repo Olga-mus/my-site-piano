@@ -123,8 +123,21 @@ a .header_list-item:hover {
 
 .sint-grid-container {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: repeat(12, 1fr);
   width: 940px;
-  /* margin: 0 auto; */
+  margin: 60px auto;
   position: relative;
+}
+
+.grid-item__sea {
+  border-radius: 40px;
+  grid-column: 7 / -1;
+  grid-row: 1;
+  padding-top: 20%;
+  z-index: 1;
+}
+
+.grid-item__cat {
+  grid-column: 1 / span 10;
+  grid-row: 1;
 }

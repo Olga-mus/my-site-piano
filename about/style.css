@@ -66,7 +66,8 @@ a .header_list-item:hover {
   border: none;
 }
 
-.main-about__title {
+.main-about__title,
+.main-about__education {
   font-family: 'Pacifico', Arial, sans-serif;
   font-size: 54px;
   line-height: 1;
@@ -88,6 +89,13 @@ a .header_list-item:hover {
   line-height: 1.22;
   color: #000;
   list-style: none;
+  text-align: center;
+  padding: 44px 0 0;
+  margin: 0;
+}
+
+.main-about__list-items li {
+  margin-bottom: 20px;
 }
 
 .main-about__img {
@@ -100,4 +108,23 @@ a .header_list-item:hover {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+}
+
+.main-about__list-item {
+  font-size: 20px;
+  line-height: 1.37;
+  color: #fff;
+  list-style: none;
+}
+
+.main-about__list-item li {
+  margin-bottom: 20px;
+}
+
+.sint-grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 940px;
+  /* margin: 0 auto; */
+  position: relative;
 }

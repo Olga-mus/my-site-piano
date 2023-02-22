@@ -129,22 +129,33 @@ a .header_list-item:hover {
   line-height: 1;
   font-weight: bold;
   color: #510d0a;
-  background-color: #fcea2b;
+  /* background-color: #fcea2b; */
+
   position: absolute;
   top: 520px;
   left: 100px;
   text-transform: uppercase;
-  box-shadow: 3px 3px 1px #322e00;
-  text-shadow: 1px 1px 1px #0f0f0f;
+  background-image: linear-gradient(
+    to right,
+    #fcea2b,
+    #f39417,
+    #ffbb00,
+    #fcea2b
+  );
+  box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .header-main__text-button:hover {
   cursor: pointer;
-  opacity: 0.8;
-  font-size: 26px;
-  width: 300px;
-  height: 80px;
-  top: 515px;
+  background-position: 287px 10px;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .header-main__clue {

@@ -27,9 +27,9 @@ a .header_list-item:hover {
   font-size: 54px;
   line-height: 1;
   color: #8a1a15;
-  margin: 0;
+  margin: 60px 0;
   text-align: center;
-  padding: 60px 0 60px;
+  padding: 0;
 }
 
 .main-about__info {

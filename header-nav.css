@@ -42,3 +42,24 @@
   justify-content: center;
   align-items: center;
 }
+
+.header_img-piano {
+  height: 50px;
+  width: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a .header_list-item:hover {
+  cursor: pointer;
+  opacity: 0.6;
+  text-decoration: underline;
+}
+
+.header_img-piano:hover {
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(360deg)
+    brightness(118%) contrast(119%);
+  border: none;
+}

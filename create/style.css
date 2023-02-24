@@ -107,3 +107,44 @@
   border-radius: 40px;
   margin: 80px auto 100px;
 }
+
+.publications__title {
+  font-size: 36px;
+  line-height: 1;
+  color: #8a1a15;
+  font-weight: 700;
+  margin: 0 0 30px;
+  text-align: center;
+}
+
+.publications__all {
+  width: 1180px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.publications__list {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  font-weight: 400;
+  list-style: none;
+  padding: 0;
+}
+
+li a {
+  color: #fff;
+}
+
+li a:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.publications__list li {
+  margin-bottom: 14px;
+}
+
+.publications__container {
+  width: 550px;
+}

@@ -105,15 +105,16 @@
 .achievement__photo {
   display: block;
   border-radius: 40px;
-  margin: 80px auto 100px;
+  margin: 80px auto 0;
 }
 
-.publications__title {
+.publications__title,
+.video__title {
   font-size: 36px;
   line-height: 1;
   color: #8a1a15;
   font-weight: 700;
-  margin: 0 0 30px;
+  margin: 100px 0 30px;
   text-align: center;
 }
 
@@ -146,5 +147,33 @@ li a:hover {
 }
 
 .publications__container {
-  width: 550px;
+  width: 480px;
+}
+
+.indent-left {
+  margin-left: 100px;
+}
+
+.indent-right {
+  margin-right: 100px;
+}
+
+.video__container {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  width: 1180px;
+}
+
+.video__figure {
+  margin: 0;
+  padding: 0;
+}
+
+.video__figure__title {
+  font-size: 20px;
+  line-height: 1.2;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 20px;
 }

@@ -40,6 +40,18 @@
   top: 42px;
   left: 100px;
   text-shadow: 1px 1px 2px black, 0 0 25px #000000, 0 0 5px #fcea2b;
+  animation: glow 3s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #f3d4d0,
+      0 0 40px #ea9ee2, 0 0 50px #da75c4, 0 0 60px #eb94f3, 0 0 70px #a865ac;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #61585d, 0 0 40px #6f3150,
+      0 0 50px #431029, 0 0 60px #581c3a, 0 0 70px #874164, 0 0 80px #d682ac;
+  }
 }
 
 .header-main__subtitle {

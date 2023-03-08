@@ -5,7 +5,7 @@
   font-size: 54px;
   line-height: 1;
   color: #8a1a15;
-  margin: 60px 0;
+  margin: 130px 0 60px;
   text-align: center;
   padding: 0;
 }
@@ -91,9 +91,10 @@
   font-size: 120px;
   line-height: 1;
   color: #eee;
-  text-shadow: 0 0 5rem #028ae9;
+  text-shadow: 0 0 5rem #fcea2b;
   transition: all 0.07s ease;
   min-height: 120px;
+  text-align: center;
 }
 
 /* общие настройки для всего блока клавиш */
@@ -103,7 +104,7 @@
   height: 350px;
   max-width: 880px;
   position: relative;
-  margin: 40px auto 0;
+  margin: 40px auto 100px;
   cursor: none;
 }
 
@@ -169,8 +170,8 @@
 /* подсвечиваем нажатую клавишу */
 .playing {
   transform: scale(0.95);
-  border-color: #028ae9;
-  box-shadow: 0 0 1rem #028ae9;
+  border-color: #fcea2b;
+  box-shadow: 0 0 1rem #fcea2b;
 }
 
 /* настройка внешнего вида подсказок на клавишах */
@@ -182,6 +183,7 @@
   bottom: 7px;
   transition: opacity 0.3s ease-out;
   font-size: 20px;
+  text-align: center;
 }
 
 /* включаем подсказки на клавишах при наведении курсора */

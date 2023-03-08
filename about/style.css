@@ -32,6 +32,10 @@ a .header_list-item:hover {
   padding: 0;
 }
 
+.main-about__title_margin {
+  margin-top: 130px;
+}
+
 .main-about__info {
   width: 378px;
   height: 400px;

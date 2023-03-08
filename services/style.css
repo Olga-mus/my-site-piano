@@ -83,7 +83,7 @@
   width: 1020px;
   border-radius: 40px;
   display: block;
-  margin: 30px auto 90px;
+  margin: 30px auto 30px;
 }
 
 /* настройки внешнего вида ноты, которая появляется над клавишами */
@@ -104,7 +104,7 @@
   height: 350px;
   max-width: 880px;
   position: relative;
-  margin: 40px auto 100px;
+  margin: 0 auto 20px;
   cursor: none;
 }
 
@@ -189,4 +189,15 @@
 /* включаем подсказки на клавишах при наведении курсора */
 .keys:hover .hints {
   opacity: 1;
+}
+
+.keys__melodia {
+  display: block;
+  margin: auto;
+}
+
+.keys__title {
+  font-size: 20px;
+  text-align: center;
+  margin: 30px 0 10px;
 }

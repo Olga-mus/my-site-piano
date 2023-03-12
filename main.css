@@ -38,7 +38,6 @@
   line-height: 1.25;
   letter-spacing: 0.04em;
   color: #8a1a15;
-  width: 544px;
   margin: 0;
   position: absolute;
   top: 42px;
@@ -110,6 +109,7 @@
   width: 32px;
   height: 84px;
   background-image: url(./images/icon/clue.svg);
+  background-size: contain;
   position: absolute;
   top: 40px;
   right: 100px;
@@ -305,6 +305,7 @@
   .header-main__title {
     font-size: 50px;
     left: 20px;
+    text-align: start;
   }
 
   .header-main__subtitle {
@@ -326,14 +327,166 @@
 
   .header-main__contact {
     right: 20px;
+    width: 242px;
   }
 
   .header-main__number {
     font-size: 24px;
+    width: 192px;
   }
 
   .header-main__icon-phone {
     width: 34px;
     height: 34px;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .header_list {
+    display: none;
+  }
+
+  .button-menu,
+  .img-menu {
+    display: block;
+  }
+
+  .header_img-piano {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+  }
+
+  .header__container-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 10px;
+  }
+
+  .header-main__title {
+    font-size: 44px;
+    top: 20px;
+    left: 10px;
+  }
+  .header-main__subtitle {
+    font-size: 22px;
+    width: 300px;
+    overflow-wrap: break-word;
+    left: 10px;
+    top: 120px;
+  }
+
+  .header-main__text-button {
+    height: 50px;
+    font-size: 14px;
+    width: 185px;
+    left: 10px;
+    bottom: 36px;
+  }
+
+  .header-main__clue {
+    top: 20px;
+    width: 22px;
+    height: 72px;
+    right: 10px;
+  }
+
+  .header-main__contact {
+    right: 10px;
+  }
+
+  .header-main {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header-main__title {
+    font-size: 34px;
+  }
+
+  .header-main__subtitle {
+    font-size: 18px;
+    width: 300px;
+    overflow-wrap: break-word;
+  }
+
+  .header-main__number {
+    font-size: 18px;
+    width: 144px;
+  }
+
+  .header-main__icon-phone {
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+  }
+
+  .header-main__contact {
+    width: 188px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .header-main__title {
+    font-size: 24px;
+  }
+
+  .header-main__subtitle {
+    font-size: 14px;
+    width: 256px;
+    top: 90px;
+  }
+
+  .header-main__clue {
+    width: 18px;
+    height: 68px;
+  }
+
+  .header-main__text-button {
+    height: 34px;
+    font-size: 10px;
+    width: 134px;
+  }
+
+  .header-main__number {
+    font-size: 12px;
+    width: 96px;
+  }
+
+  .header-main__icon-phone {
+    width: 22px;
+    height: 22px;
+    margin-right: 4px;
+  }
+
+  .header-main__contact {
+    width: 122px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .header-main__title {
+    font-size: 18px;
+    top: 10px;
+  }
+
+  .header-main__clue {
+    top: 10px;
+    width: 14px;
+    height: 64px;
+  }
+
+  .header-main__subtitle {
+    font-size: 12px;
+    width: 177px;
+    top: 60px;
+  }
+
+  .header-main__text-button {
+    height: 30px;
+    font-size: 8px;
+    width: 108px;
   }
 }

@@ -75,8 +75,51 @@ a .header_list-item:hover {
   border: none;
 }
 
+.button-menu {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+.img-menu {
+  width: 30px;
+  height: 30px;
+  display: none;
+}
+
 @media screen and (max-width: 1023px) {
   .header_list {
     font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .header_list {
+    display: none;
+  }
+
+  .button-menu,
+  .img-menu {
+    display: block;
+  }
+
+  .header_img-piano {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+  }
+
+  .header__container-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 10px;
+  }
+
+  .header_nav {
+    height: 50px;
   }
 }

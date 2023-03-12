@@ -90,6 +90,45 @@ a .header_list-item:hover {
   display: none;
 }
 
+.popup {
+  position: fixed;
+  top: 50px;
+}
+
+.popup_burger {
+  width: 100vw;
+  height: 100vh;
+  background-color: greenyellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup_burger__container {
+  width: 340px;
+  height: 560px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.popup_burger__list {
+  list-style: none;
+  font-size: 30px;
+  color: #000;
+  text-align: center;
+  padding: 0;
+  margin: 50% auto;
+}
+
+.popup_burger__list li {
+  margin-bottom: 30px;
+}
+
 @media screen and (max-width: 1023px) {
   .header_list {
     font-size: 26px;

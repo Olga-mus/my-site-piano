@@ -96,9 +96,10 @@ a .header_list-item:hover {
 }
 
 .popup_burger {
+  max-width: 1180px;
   width: 100vw;
   height: 100vh;
-  background-color: greenyellow;
+  background-color: #0a0909;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -110,6 +111,8 @@ a .header_list-item:hover {
   background-color: #fff;
   display: flex;
   align-items: center;
+  position: relative;
+  border-radius: 20px;
 }
 
 .hidden {
@@ -127,6 +130,24 @@ a .header_list-item:hover {
 
 .popup_burger__list li {
   margin-bottom: 30px;
+}
+
+.popup_burger__list li:hover {
+  text-decoration: underline;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.popup_burger__button-close {
+  background-image: url(../images/icon/popup-close.svg);
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: -34px;
+  left: 344px;
 }
 
 @media screen and (max-width: 1023px) {
@@ -160,5 +181,43 @@ a .header_list-item:hover {
 
   .header_nav {
     height: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .popup_burger__container {
+    width: 300px;
+    height: 460px;
+  }
+
+  .popup_burger__list {
+    font-size: 28px;
+  }
+
+  .popup_burger__button-close {
+    width: 26px;
+    height: 26px;
+    top: -36px;
+    left: 310px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .popup_burger__container {
+    width: 210px;
+    height: 400px;
+  }
+
+  .popup_burger__list {
+    font-size: 24px;
+  }
+
+  .popup_burger__button-close {
+    width: 20px;
+    height: 20px;
+    top: -36px;
+    left: 310px;
+    top: -28px;
+    left: 218px;
   }
 }

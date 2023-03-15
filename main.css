@@ -157,6 +157,7 @@
   width: 30px;
   height: 36px;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .main-about-me__flat {
@@ -165,10 +166,11 @@
   height: 36px;
   margin-left: 10px;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .main-about-me__line {
-  width: 1080px;
+  width: 100%;
   height: 18px;
   border-bottom: 1px solid #8a1a15;
 }
@@ -180,14 +182,13 @@
 }
 
 .main-about-me__photo {
-  width: 580px;
-  height: 410px;
+  width: 100%;
 }
 
 .main-about-me__photo-me {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 40px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
 }
 
 .main-about-me__text {
@@ -339,6 +340,24 @@
     width: 34px;
     height: 34px;
   }
+
+  .header-main {
+    margin-bottom: 30px;
+  }
+
+  .main-about-me__block-break {
+    margin-bottom: 30px;
+  }
+
+  .main-about-me__sharp {
+    width: 26px;
+    height: 32px;
+  }
+
+  .main-about-me__flat {
+    width: 16px;
+    height: 32px;
+  }
 }
 
 @media screen and (max-width: 766px) {
@@ -377,14 +396,6 @@
     top: 120px;
   }
 
-  .header-main__text-button {
-    height: 50px;
-    font-size: 14px;
-    width: 185px;
-    left: 10px;
-    bottom: 36px;
-  }
-
   .header-main__clue {
     top: 20px;
     width: 22px;
@@ -398,6 +409,27 @@
 
   .header-main {
     margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .main-about-me__flat {
+    width: 12px;
+    height: 28px;
+    margin-right: 10px;
+  }
+
+  .main-about-me__sharp {
+    width: 22px;
+    height: 28px;
+    margin-left: 10px;
+  }
+
+  .main-about-me__block-break {
+    margin-bottom: 20px;
+  }
+
+  .header-main__text-button {
+    left: 10px;
   }
 }
 
@@ -426,6 +458,10 @@
   .header-main__contact {
     width: 188px;
   }
+
+  .header-main__text-button {
+    bottom: 50px;
+  }
 }
 
 @media screen and (max-width: 520px) {
@@ -445,9 +481,10 @@
   }
 
   .header-main__text-button {
-    height: 34px;
-    font-size: 10px;
-    width: 134px;
+    height: 58px;
+    font-size: 18px;
+    width: 226px;
+    left: calc(50vw - 113px);
   }
 
   .header-main__number {
@@ -484,9 +521,48 @@
     top: 60px;
   }
 
+  .main-about-me__photo-me {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    gap: 10px;
+  }
+
+  .main-about-me__block-break {
+    margin-bottom: 10px;
+  }
+
+  .header-main {
+    margin-bottom: 10px;
+  }
+
+  .header-main__contact {
+    display: none;
+  }
+
   .header-main__text-button {
-    height: 30px;
-    font-size: 8px;
-    width: 108px;
+    bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .header-main__text-button {
+    bottom: 20px;
+  }
+
+  .header-main__subtitle {
+    top: 42px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .main-about-me__photo-me {
+    max-width: 280px;
+    margin: auto;
+  }
+
+  .header-main__text-button {
+    width: 300px;
+    left: calc(50vw - 150px);
   }
 }

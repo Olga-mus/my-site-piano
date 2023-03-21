@@ -121,9 +121,7 @@
 }
 
 .publications__all {
-  width: 1180px;
-  display: flex;
-  justify-content: space-between;
+  max-width: 1180px;
 }
 
 .publications__list {
@@ -149,22 +147,16 @@ li a:hover {
 }
 
 .publications__container {
-  width: 480px;
-}
-
-.indent-left {
-  margin-left: 100px;
-}
-
-.indent-right {
-  margin-right: 100px;
+  max-width: 750px;
+  margin: auto;
 }
 
 .video__container {
   display: grid;
   grid-template-columns: auto auto;
   justify-content: space-between;
-  width: 1180px;
+  max-width: 1180px;
+  gap: 20px;
 }
 
 .video__figure {
@@ -292,6 +284,12 @@ li a:hover {
   }
 }
 
+@media screen and (max-width: 780px) {
+  .publications__container {
+    max-width: 600px;
+  }
+}
+
 @media screen and (max-width: 740px) {
   .achievement__container {
     flex-direction: column;
@@ -312,6 +310,26 @@ li a:hover {
   }
 }
 
+@media screen and (max-width: 640px) {
+  .publications__container {
+    max-width: 450px;
+  }
+
+  .publications__list {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .publications__container {
+    max-width: 340px;
+  }
+
+  .publications__list {
+    font-size: 12px;
+  }
+}
+
 @media screen and (max-width: 450px) {
   .achievement_title {
     font-size: 32px;
@@ -322,9 +340,19 @@ li a:hover {
   }
 }
 
+@media screen and (max-width: 380px) {
+  .publications__container {
+    max-width: 300px;
+  }
+}
+
 @media screen and (max-width: 360px) {
   .achievement__container {
     max-width: 300px;
     gap: 10px;
+  }
+
+  .achievement__card {
+    height: 400px;
   }
 }

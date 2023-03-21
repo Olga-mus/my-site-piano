@@ -176,7 +176,7 @@ li a:hover {
 
 /* Слайдер: */
 .slider {
-  max-width: 50%;
+  max-width: 590px;
   /* Положение элемента устанавливается относительно его исходной позиции: */
   position: relative;
   /* Центрируем по горизонтали: */
@@ -282,6 +282,15 @@ li a:hover {
     justify-content: center;
     text-align: center;
   }
+
+  .slider {
+    max-width: 500px;
+    height: 700px;
+  }
+
+  .slider .item img {
+    height: 700px;
+  }
 }
 
 @media screen and (max-width: 850px) {
@@ -342,6 +351,17 @@ li a:hover {
   }
 }
 
+@media screen and (max-width: 540px) {
+  .slider {
+    max-width: 330px;
+    height: 470px;
+  }
+
+  .slider .item img {
+    height: 470px;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .publications__container {
     max-width: 340px;
@@ -381,6 +401,15 @@ li a:hover {
 @media screen and (max-width: 380px) {
   .publications__container {
     max-width: 300px;
+  }
+
+  .slider {
+    max-width: 300px;
+    height: 416px;
+  }
+
+  .slider .item img {
+    height: 416px;
   }
 }
 
@@ -436,5 +465,9 @@ li a:hover {
   .achievement__awards {
     width: 70px;
     height: 78px;
+  }
+
+  .achievement__photo {
+    width: 300px;
   }
 }

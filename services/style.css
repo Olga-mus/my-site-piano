@@ -38,12 +38,13 @@
 .services__description {
   display: flex;
   justify-content: space-between;
-  width: 780px;
+  max-width: 780px;
   margin: auto;
+  gap: 20px;
 }
 
 .services__img-photo {
-  width: 1180px;
+  width: 100%;
   border-radius: 40px;
   margin-top: 40px;
   margin-bottom: 90px;
@@ -200,4 +201,120 @@
   font-size: 20px;
   text-align: center;
   margin: 30px 0 10px;
+}
+
+@media screen and (max-width: 820px) {
+  .services__description {
+    max-width: 640px;
+  }
+
+  .services__list {
+    font-size: 16px;
+    padding: 16px 10px 0;
+  }
+
+  .services__title {
+    margin-top: 70px;
+    margin-bottom: 20px;
+  }
+
+  .services__img-photo {
+    margin-bottom: 40px;
+  }
+
+  .services-learn__subtitle,
+  .services-learn__title {
+    font-size: 30px;
+  }
+
+  .services-learn__name {
+    width: 576px;
+  }
+
+  .services-learn__subtitle {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .services__description {
+    max-width: 420px;
+  }
+
+  .services__list {
+    font-size: 14px;
+  }
+
+  .services__card li {
+    margin-bottom: 8px;
+  }
+
+  .services__card {
+    height: 392px;
+  }
+
+  .services__title {
+    font-size: 32px;
+  }
+
+  .services__img-photo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .services-learn__gif-trumbs {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .services-learn__subtitle,
+  .services-learn__title {
+    font-size: 22px;
+  }
+
+  .services-learn__name {
+    width: 414px;
+  }
+
+  .services-learn__gif-trumbs {
+    width: 64px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .services__description {
+    max-width: 300px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .services__card {
+    width: 300px;
+    height: 370px;
+  }
+
+  .services__img-gif {
+    height: 100px;
+    width: 100px;
+  }
+
+  .services-learn__subtitle,
+  .services-learn__title {
+    font-size: 14px;
+  }
+
+  .services-learn__name {
+    width: 264px;
+  }
+
+  .services-learn__subtitle {
+    margin-bottom: 10px;
+  }
+
+  .services-learn__gif-trumbs {
+    width: 40px;
+    margin-top: 4px;
+  }
 }

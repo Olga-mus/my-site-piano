@@ -81,7 +81,7 @@
 }
 
 .services-learn__img-play {
-  width: 1020px;
+  width: 100%;
   border-radius: 40px;
   display: block;
   margin: 30px auto 30px;
@@ -195,6 +195,7 @@
 .keys__melodia {
   display: block;
   margin: auto;
+  width: 100%;
 }
 
 .keys__title {
@@ -234,6 +235,14 @@
   .services-learn__subtitle {
     margin-bottom: 20px;
   }
+
+  .keys {
+    height: 280px;
+  }
+
+  .keys__title {
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 680px) {
@@ -265,6 +274,11 @@
   .services-learn__gif-trumbs {
     margin-top: 10px;
   }
+
+  .keys__title {
+    font-size: 16px;
+    margin-top: 20px;
+  }
 }
 
 @media screen and (max-width: 610px) {
@@ -279,6 +293,21 @@
 
   .services-learn__gif-trumbs {
     width: 64px;
+  }
+
+  .keys {
+    height: 210px;
+  }
+
+  .nowplaying {
+    font-size: 70px;
+    min-height: 70px;
+  }
+
+  .keys__title {
+    width: 270px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
@@ -316,5 +345,54 @@
   .services-learn__gif-trumbs {
     width: 40px;
     margin-top: 4px;
+  }
+
+  .services-learn__img-play {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .keys {
+    height: 110px;
+  }
+
+  .hints {
+    font-size: 16px;
+  }
+
+  .nowplaying {
+    font-size: 50px;
+    min-height: 50px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .keys {
+    height: 80px;
+    width: 300px;
+  }
+
+  .hints {
+    font-size: 14px;
+  }
+
+  .nowplaying {
+    font-size: 30px;
+    min-height: 30px;
+  }
+
+  .keys__title {
+    font-size: 14px;
+  }
+
+  .services-learn__img-play {
+    width: 300px;
+    margin: 10px auto 20px;
+  }
+
+  .services__img-photo {
+    width: 100vw;
+    margin-right: auto;
+    margin-left: auto;
   }
 }

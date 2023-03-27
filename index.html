@@ -8,6 +8,7 @@
   <title>Главная страница</title>
   <link rel="stylesheet" href="./main.css" />
   <link rel="stylesheet" href="./header-nav/header-nav.css">
+  <link rel="stylesheet" href="./popup-munu/popup-menu.css">
 </head>
 
 <body class="page">
@@ -16,23 +17,16 @@
       <div class="header__container">
         <nav class="header_nav">
           <div class="header__container-menu">
-            <button class="button-menu"><img class="img-menu" src="./images/icon/burger.png" /></button>
+            <button type="button" class="button-menu"><img class="img-menu" src="./images/icon/burger.png"
+                alt="иконка меню" /></button>
             <a class="header_link-main" href="./index.html"><img class="header_img-piano"
                 src="./images/icon/header-piano.svg" alt="Главная страница" /></a>
           </div>
           <ul class="header_list">
-            <a href="./index.html">
-              <li class="header_list-item header_list-item_title">Главная</li>
-            </a>
-            <a href="./about/index.html">
-              <li class="header_list-item">Обо мне</li>
-            </a>
-            <a href="./create/index.html">
-              <li class="header_list-item">Творческие работы</li>
-            </a>
-            <a href="./services/index.html">
-              <li class="header_list-item">Услуги</li>
-            </a>
+            <li class="header_list-item header_list-item_title"><a href="./index.html">Главная</a></li>
+            <li class="header_list-item"><a href="./about/index.html">Обо мне</a></li>
+            <li class="header_list-item"><a href="./create/index.html">Творческие работы</a></li>
+            <li class="header_list-item"><a href="./services/index.html">Услуги</a></li>
           </ul>
         </nav>
       </div>
@@ -44,8 +38,9 @@
         <h1 class="header-main__title">Привет, я Ольга</h1>
         <h2 class="header-main__subtitle">Обучаю самому прекрасному языку, влюбляю в&nbsp;музыку
         </h2>
-        <a href="#details"><button class="header-main__text-button">Узнать больше</button></a>
-
+        <form style="display: inline" action="#details" method="get">
+          <button class="header-main__text-button" type="submit">Узнать больше</button>
+        </form>
         <div class="header-main__clue"></div>
         <div class="header-main__contact">
           <div class="header-main__icon-phone"></div>
@@ -53,9 +48,6 @@
         </div>
       </div>
     </header>
-
-
-
     <main>
       <div class="main-about-me">
         <div class="main-about-me__block-break">
@@ -85,16 +77,9 @@
           <img class="main-about-me__piano" src="./images/image/main-about-me_my-photo.png" alt="
           фотография c синтезатором">
         </div>
-
       </div>
-
-
-
-
-
-
       <div class="main-dreams">
-        <video width="100%" height="100%" class="main-dreams__video" autoplay loop>
+        <video style="width: 100%; height: 100%" class="main-dreams__video" autoplay loop>
           <source src="./video/Piano.mp4" type="video/mp4">
         </video>
         <h3 class="main-dreams__text">Мечты сбываются...</h3>
@@ -130,26 +115,16 @@
       <div class="popup_burger">
         <div class="popup_burger__container">
           <ul class="popup_burger__list">
-            <a href="./index.html">
-              <li>Главная</li>
-            </a>
-            <a href="./about/index.html">
-              <li>Обо мне</li>
-            </a>
-            <a href="./create/index.html">
-              <li>Творческие работы</li>
-            </a>
-            <a href="./services/index.html">
-              <li>Услуги</li>
-            </a>
+            <li><a href="./index.html">Главная</a></li>
+            <li><a href="./about/index.html">Обо мне</a></li>
+            <li><a href="./create/index.html">Творческие работы</a></li>
+            <li><a href="./services/index.html">Услуги</a></li>
           </ul>
-          <button class="popup_burger__button-close"></button>
+          <button type="button" class="popup_burger__button-close"></button>
         </div>
       </div>
     </div>
   </div>
-
-
   <script src="./script.js"></script>
 </body>
 

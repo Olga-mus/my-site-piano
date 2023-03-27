@@ -8,6 +8,7 @@
     <title>Творческие работы</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="../header-nav/header-nav.css">
+    <link rel="stylesheet" href="../popup-munu/popup-menu.css">
 </head>
 
 <body class="page">
@@ -16,23 +17,16 @@
             <div class="header__container">
                 <nav class="header_nav">
                     <div class="header__container-menu">
-                        <button class="button-menu"><img class="img-menu" src="../images/icon/burger.png" /></button>
+                        <button type="button" class="button-menu"><img class="img-menu" src="../images/icon/burger.png"
+                                alt="иконка меню" /></button>
                         <a class="header_link-main" href="../index.html"><img class="header_img-piano"
                                 src="../images/icon/header-piano.svg" alt="Главная страница" /></a>
                     </div>
                     <ul class="header_list">
-                        <a href="../index.html">
-                            <li class="header_list-item header_list-item_title">Главная</li>
-                        </a>
-                        <a href="../about/index.html">
-                            <li class="header_list-item">Обо мне</li>
-                        </a>
-                        <a href="../create/index.html">
-                            <li class="header_list-item">Творческие работы</li>
-                        </a>
-                        <a href="../services/index.html">
-                            <li class="header_list-item">Услуги</li>
-                        </a>
+                        <li class="header_list-item header_list-item_title"><a href="../index.html">Главная</a></li>
+                        <li class="header_list-item"><a href="../about/index.html">Обо мне</a></li>
+                        <li class="header_list-item"><a href="../create/index.html">Творческие работы</a></li>
+                        <li class="header_list-item"><a href="../services/index.html">Услуги</a></li>
                     </ul>
                 </nav>
             </div>
@@ -45,7 +39,7 @@
                         <div class="achievement__publicitions"></div>
                         <h4 class="achievement__subtitle">Публикации</h4>
                         <p class="achievement__about">Список опубликованных научных статей</p>
-                        <a href="#publicitions"><button class="achievement__button">Подробнее</button>
+                        <a href="#publicitions"><button type="button" class="achievement__button">Подробнее</button>
                         </a>
                     </div>
 
@@ -53,7 +47,7 @@
                         <div class="achievement__play"></div>
                         <h4 class="achievement__subtitle">Видео</h4>
                         <p class="achievement__about">Мои видеозаписи</p>
-                        <a href="#play"> <button class="achievement__button">Подробнее</button>
+                        <a href="#play"> <button type="button" class="achievement__button">Подробнее</button>
                         </a>
                     </div>
 
@@ -62,8 +56,7 @@
                         <h4 class="achievement__subtitle">Награды</h4>
                         <p class="achievement__about">Мои достижения и награды учеников - лауреатов всероссийских и
                             международных конкурсов</p>
-                        <a href="#awards"><button class="achievement__button">Подробнее</button></a>
-
+                        <a href="#awards"><button type="button" class="achievement__button">Подробнее</button></a>
                     </div>
                 </div>
                 <img class="achievement__photo" src="../images/image/create-main.png" alt="фотография на концерте">
@@ -182,7 +175,6 @@
             <section id="awards">
                 <h3 class="awards__title">Награды</h3>
                 <div class="slider">
-
                     <div class="item">
                         <img src="../images/slider/1.jpg" alt="грамота">
                     </div>
@@ -363,20 +355,12 @@
         <div class="popup_burger">
             <div class="popup_burger__container">
                 <ul class="popup_burger__list">
-                    <a href="../index.html">
-                        <li>Главная</li>
-                    </a>
-                    <a href="./about/index.html">
-                        <li>Обо мне</li>
-                    </a>
-                    <a href="./index.html">
-                        <li>Творческие работы</li>
-                    </a>
-                    <a href="../services/index.html">
-                        <li>Услуги</li>
-                    </a>
+                    <li><a href="../index.html">Главная</a></li>
+                    <li><a href="../about/index.html">Обо мне</a></li>
+                    <li><a href="./index.html">Творческие работы</a></li>
+                    <li> <a href="../services/index.html">Услуги</a></li>
                 </ul>
-                <button class="popup_burger__button-close"></button>
+                <button type="button" class="popup_burger__button-close"></button>
             </div>
         </div>
     </div>

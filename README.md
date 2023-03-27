@@ -13,7 +13,7 @@ Nested БЭМ, Flexbox, HTML, CSS, Grid Layout, JavaScript.
 
 **Ссылка на проект:**
 
-[GitHub Pages](...)
+[GitHub Pages](https://olga-mus.github.io/my-site-piano/index.html)
 
 **Статус проекта:**
 

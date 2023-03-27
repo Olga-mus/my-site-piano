@@ -107,6 +107,7 @@ a .header_list-item:hover {
   grid-row: 1;
   padding-top: 20%;
   z-index: 1;
+  position: absolute;
 }
 
 .grid-item__cat {

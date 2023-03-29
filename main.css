@@ -88,18 +88,12 @@
     #fcea2b
   );
   box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
-  moz-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 
 .header-main__text-button:hover {
   cursor: pointer;
   background-position: 287px 10px;
-  moz-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 
@@ -688,7 +682,7 @@
   }
 
   .footer-contacts__title {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .footer-contacts__list {

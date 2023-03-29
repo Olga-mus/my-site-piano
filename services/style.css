@@ -107,6 +107,7 @@
   position: relative;
   margin: 0 auto 20px;
   cursor: none;
+  z-index: 0;
 }
 
 /* общие настройки внешнего вида клавиш */

@@ -41,8 +41,6 @@ function showSlides(n) {
 }
 
 document.addEventListener('keydown', function (e) {
-  console.log('RRRR');
-  console.log(e);
   if (e.key === 'ArrowRight') {
     nextSlide();
   }

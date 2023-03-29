@@ -36,7 +36,8 @@ function playNote(e) {
 
 // отслеживаем нажатие каждой клавиши и сразу включаем звук
 document.addEventListener('keydown', playNote);
-document.addEventListener('click', playNote);
+
+document.addEventListener('touchstart', playNote);
 
 // функция, которая убирает анимацию нажатия на клавишу
 function removeTransition(e) {

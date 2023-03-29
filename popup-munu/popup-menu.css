@@ -23,6 +23,11 @@
   cursor: pointer;
 }
 
+.popup_burger__list li:active {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
 .popup_burger__button-close {
   background-image: url(../images/icon/popup-close.svg);
   width: 30px;

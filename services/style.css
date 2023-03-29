@@ -193,6 +193,10 @@
   opacity: 1;
 }
 
+.keys:active .hints {
+  opacity: 1;
+}
+
 .keys__melodia {
   display: block;
   margin: auto;

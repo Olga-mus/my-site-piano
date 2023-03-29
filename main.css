@@ -97,6 +97,12 @@
   transition: all 0.4s ease-in-out;
 }
 
+.header-main__text-button:active {
+  cursor: pointer;
+  background-position: 287px 10px;
+  transition: all 0.4s ease-in-out;
+}
+
 .header-main__clue {
   width: 32px;
   height: 84px;

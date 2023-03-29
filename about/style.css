@@ -15,7 +15,19 @@ a .header_list-item:hover {
   text-decoration: underline;
 }
 
+a .header_list-item:active {
+  cursor: pointer;
+  opacity: 0.6;
+  text-decoration: underline;
+}
+
 .header_img-piano:hover {
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(360deg)
+    brightness(118%) contrast(119%);
+  border: none;
+}
+
+.header_img-piano:active {
   filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(360deg)
     brightness(118%) contrast(119%);
   border: none;
@@ -64,6 +76,11 @@ a .header_list-item:hover {
 }
 
 .main-about__list-item a:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.main-about__list-item a:active {
   opacity: 0.6;
   cursor: pointer;
 }

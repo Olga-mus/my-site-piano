@@ -97,6 +97,12 @@
   transition: all 0.4s ease-in-out;
 }
 
+.achievement__button:active {
+  cursor: pointer;
+  background-position: 230px 10px;
+  transition: all 0.4s ease-in-out;
+}
+
 .achievement__photo {
   display: block;
   border-radius: 40px;
@@ -132,6 +138,11 @@ li a {
 }
 
 li a:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+li a:active {
   cursor: pointer;
   opacity: 0.6;
 }
@@ -225,6 +236,13 @@ li a:hover {
 /* При наведении курсора на кнопки добавляем фон кнопок: */
 .slider .previous:hover,
 .slider .next:hover {
+  /* background-color: rgba(0, 0, 0, 0.2); */
+  background-position: 40px 5px;
+  transition: all 0.4s ease-in-out;
+}
+
+.slider .previous:active,
+.slider .next:active {
   /* background-color: rgba(0, 0, 0, 0.2); */
   background-position: 40px 5px;
   transition: all 0.4s ease-in-out;

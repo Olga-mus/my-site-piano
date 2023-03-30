@@ -13,7 +13,6 @@ const hints = document.querySelectorAll('.hints');
 // проигрываем звук при нажатии на клавишу
 function playNote(e) {
   // получаем аудиообъект по коду нажатой клавиши
-  // получаем аудиообъект по коду нажатой клавиши
   const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`),
     // получаем нажатую клавишу на пианино по коду нажатой клавиши на клавиатуре
     key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
@@ -36,8 +35,6 @@ function playNote(e) {
 
 // отслеживаем нажатие каждой клавиши и сразу включаем звук
 document.addEventListener('keydown', playNote);
-
-document.addEventListener('mousedown', playNote);
 
 // функция, которая убирает анимацию нажатия на клавишу
 function removeTransition(e) {

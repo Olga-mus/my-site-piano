@@ -92,13 +92,13 @@
 }
 
 .header-main__text-button:hover {
-  cursor: pointer;
+  cursor: url(./images/cursor/piano.cur), auto;
   background-position: 287px 10px;
   transition: all 0.4s ease-in-out;
 }
 
 .header-main__text-button:active {
-  cursor: pointer;
+  cursor: url(./images/cursor/piano.cur), auto;
   background-position: 287px 10px;
   transition: all 0.4s ease-in-out;
 }
@@ -270,12 +270,12 @@
 
 .footer-contacts__list-items a:hover {
   opacity: 0.6;
-  cursor: pointer;
+  cursor: url(./images/cursor/piano.cur), auto;
 }
 
 .footer-contacts__list-items a:active {
   opacity: 0.6;
-  cursor: pointer;
+  cursor: url(./images/cursor/piano.cur), auto;
 }
 
 .footer-contacts__icon_tg {

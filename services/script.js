@@ -50,8 +50,22 @@ function hintsOn(e, index) {
   // время задержки зависит от позиции клавиши
   e.setAttribute('style', 'transition-delay:' + index * 50 + 'ms');
 }
+
 // включаем отображение подсказок
 hints.forEach(hintsOn);
 
 // перебираем все клавиши, где запустилась анимация, и убираем обводку с тех клавиш, где она уже закончила отрисовываться
 keys.forEach((key) => key.addEventListener('transitionend', removeTransition));
+
+// запускаем аудио по клику на клавиши
+//перебираем все клавиши и на каждую назначаем функцию
+for (let i = 0; i < keys.length; i++) {
+  keys[i].addEventListener('click', function () {
+    const keyClick = document.querySelector(`.key-${i}`); //получаем каждую клавишу по циклу
+    // добавляем класс, который отвечает за анимацию нажатия
+    keyClick.classList.add('playing');
+    const audioClick = document.querySelector(`.play-${i}`); // получаем каждое аудио по циклу
+    audioClick.currentTime = 0; // будем проигрывать каждое аудио с самого начала
+    audioClick.play(); // включаем звук нажатой клавиши
+  });
+}

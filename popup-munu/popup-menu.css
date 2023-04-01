@@ -18,9 +18,9 @@
   color: #000;
 }
 
-.popup_burger__list li:hover {
+.popup_burger__list li a:hover {
+  cursor: url(../images/cursor/piano.cur), auto;
   opacity: 0.6;
-  cursor: pointer;
 }
 
 .popup_burger__list li:active {
@@ -38,6 +38,11 @@
   position: absolute;
   top: -34px;
   left: 344px;
+}
+
+.popup_burger__button-close:hover {
+  cursor: url(../images/cursor/piano.cur), auto;
+  opacity: 0.6;
 }
 
 @media screen and (max-width: 600px) {

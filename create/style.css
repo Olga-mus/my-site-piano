@@ -92,7 +92,7 @@
 }
 
 .achievement__button:hover {
-  cursor: pointer;
+  cursor: url(../images/cursor/piano.cur), auto;
   background-position: 230px 10px;
   transition: all 0.4s ease-in-out;
 }
@@ -138,7 +138,7 @@ li a {
 }
 
 li a:hover {
-  cursor: pointer;
+  cursor: url(../images/cursor/piano.cur), auto;
   opacity: 0.6;
 }
 
@@ -201,7 +201,7 @@ li a:active {
 .slider .previous,
 .slider .next {
   /* Добавляет курсору иконку, когда тот оказывается над кнопкой: */
-  cursor: pointer;
+  cursor: url(../images/cursor/piano.cur), auto;
   /* Положение элемента задаётся относительно границ браузера: */
   position: absolute;
   top: 50%;

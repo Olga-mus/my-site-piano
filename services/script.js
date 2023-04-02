@@ -66,6 +66,6 @@ for (let i = 0; i < keys.length; i++) {
     keyClick.classList.add('playing');
     const audioClick = document.querySelector(`.play-${i}`); // получаем каждое аудио по циклу
     audioClick.currentTime = 0; // будем проигрывать каждое аудио с самого начала
-    audioClick.play(); // включаем звук нажатой клавиши
+    audioClick.play(); // включаем звук нажатой клавиши.
   });
 }
